@@ -1,4 +1,4 @@
-import '@/App.css'
+import '@/App.css';
 
 function App() {
 
@@ -6,7 +6,6 @@ function App() {
     <div className="text-3xl font-medium italic p-20 text-blue-500">
       Hello
     </div>
-  )
+  );
 }
-
-export default App
+export default App;
