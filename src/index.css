@@ -2,4 +2,17 @@
 
 @theme {
   --spacing: 1px;
+  --color-primary: black;
+  --color-background: white;
+}
+
+[data-theme="dark"] {
+  --color-primary: white;
+  --color-background: black;
+}
+
+html.theme-transition,
+html.theme-transition * {
+  transition: all;
+  transition-duration: 300ms;
 }
