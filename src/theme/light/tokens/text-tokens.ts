@@ -1,0 +1,25 @@
+import { colors } from '../../colors.ts';
+
+export const textTokens = {
+  'text-primary': colors.grayLight['900'],
+  'text-primary_on-brand': colors.baseColors.white,
+  'text-secondary': colors.grayLight['700'],
+  'text-secondary_hover': colors.grayLight['800'],
+  'text-secondary_on-brand': colors.brand['200'],
+  'text-tertiary': colors.grayLight['600'],
+  'text-tertiary_hover': colors.grayLight['700'],
+  'text-tertiary_on-brand': colors.brand['200'],
+  'text-quaternary': colors.grayLight['500'],
+  'text-quaternary_on-brand': colors.brand['300'],
+  'text-white': colors.baseColors.white,
+  'text-disabled': colors.grayLight['500'],
+  'text-placeholder': colors.grayLight['500'],
+  'text-placeholder_subtle': colors.grayLight['300'],
+  'text-brand-primary': colors.brand['900'],
+  'text-brand-secondary': colors.brand['700'],
+  'text-brand-tertiary': colors.brand['600'],
+  'text-brand-tertiary_alt': colors.brand['600'],
+  'text-error-primary': colors.error['600'],
+  'text-warning-primary': colors.warning['600'],
+  'text-success-primary': colors.success['600'],
+};
