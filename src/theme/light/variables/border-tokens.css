@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-border-primary: var(--gray-light-300);
+  --color-border-secondary: var(--gray-light-200);
+  --color-border-tertiary: var(--gray-light-100);
+  --color-border-disabled: var(--gray-light-300);
+  --color-border-disabled_subtle: var(--gray-light-200);
+  --border-brand: var(--brand-500);
+  --border-brand_alt: var(--brand-600);
+  --border-error: var(--error-500);
+  --border-error_subtle: var(--error-300);
+}

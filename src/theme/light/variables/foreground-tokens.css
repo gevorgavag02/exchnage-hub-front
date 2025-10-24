@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-fg-primary: var(--gray-light-900);
+  --color-fg-secondary: var(--gray-light-700);
+  --color-fg-secondary_hover: var(--gray-light-800);
+  --color-fg-tertiary: var(--gray-light-600);
+  --color-fg-tertiary_hover: var(--gray-light-700);
+  --color-fg-quaternary: var(--gray-light-500);
+  --color-fg-quaternary_hover: var(--gray-light-600);
+  --color-fg-quinary: var(--gray-light-400);
+  --color-fg-quinary_hover: var(--gray-light-500);
+  --color-fg-senary: var(--gray-light-300);
+  --color-fg-white: var(--white);
+  --color-fg-disabled: var(--gray-light-400);
+  --color-fg-disabled_subtle: var(--gray-light-300);
+  --color-fg-brand-primary: var(--brand-600);
+  --color-fg-brand-primary_alt: var(--brand-600);
+  --color-fg-brand-secondary: var(--brand-500);
+  --color-fg-error-primary: var(--error-600);
+  --color-fg-error-secondary: var(--error-500);
+  --color-fg-warning-primary: var(--warning-600);
+  --color-fg-warning-secondary: var(--warning-500);
+  --color-fg-success-primary: var(--success-600);
+  --fg-success-secondary: var(--success-500);
+}
