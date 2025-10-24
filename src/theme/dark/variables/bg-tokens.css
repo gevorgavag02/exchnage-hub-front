@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+[data-theme="dark"] {
+  --color-bg-primary: var(--gray-dark-950);
+  --color-bg-primary_alt: var(--gray-dark-900);
+  --color-bg-primary_hover: var(--gray-dark-800);
+  --color-bg-primary-solid: var(--gray-dark-900);
+  --color-bg-secondary: var(--gray-dark-900);
+  --color-bg-secondary_alt: var(--gray-dark-950);
+  --color-bg-secondary_hover: var(--gray-dark-800);
+  --color-bg-secondary_subtle: var(--gray-dark-900);
+  --color-bg-secondary-solid: var(--gray-dark-600);
+  --color-bg-tertiary: var(--gray-dark-800);
+  --color-bg-quaternary: var(--gray-dark-700);
+  --color-bg-active: var(--gray-dark-800);
+  --color-bg-disabled: var(--gray-dark-800);
+  --color-bg-disabled_subtle: var(--gray-dark-900);
+  --color-bg-overlay: var(--gray-dark-800);
+  --color-bg-brand-primary: var(--brand-500);
+  --color-bg-brand-primary_alt: var(--gray-dark-800);
+  --color-bg-brand-secondary: var(--brand-600);
+  --color-bg-brand-solid: var(--brand-600);
+  --color-bg-brand-solid_hover: var(--brand-500);
+  --color-bg-brand-section: var(--gray-dark-800);
+  --color-bg-brand-section_subtle: var(--gray-dark-950);
+  --color-bg-error-primary: var(--error-500);
+  --color-bg-error-secondary: var(--error-600);
+  --color-bg-error-solid: var(--error-600);
+  --color-bg-warning-primary: var(--warning-500);
+  --color-bg-warning-secondary: var(--warning-600);
+  --color-bg-warning-solid: var(--warning-600);
+  --color-bg-success-primary: var(--success-500);
+  --color-bg-success-secondary: var(--success-600);
+  --color-bg-success-solid: var(--success-600);
+}

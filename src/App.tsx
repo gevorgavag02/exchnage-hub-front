@@ -1,15 +1,20 @@
 import ThemeToggle from '@/components/theme-toggle';
 import { useThemeInitializer } from '@/utils/hooks/useThemeInitializer.ts';
 
+import './App.css';
+
 function App() {
   useThemeInitializer();
 
   return (
-    <div>
-      <div className="text-3xl font-medium italic p-20 ">
-        <div className="text-text-primary">React</div>
-        <div className="text-text-secondary_on-brand">Vite</div>
-        <div className="text-text-success-primary">Tailwind</div>
+    <div className="container">
+      <div className="texts-container">
+        <div className="text-alpha-black-30">Alpha</div>
+        <div className="text-utility-blue-300">Utility</div>
+        <div className="bg-bg-brand-primary">Bg</div>
+        <div className="border border-border-secondary">Border</div>
+        <div className="bg-fg-error-secondary">Fg</div>
+        <div className="text-text-success-primary">Text</div>
       </div>
       <ThemeToggle />
     </div>

@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+[data-theme="dark"] {
+  --color-fg-primary: var(--white);
+  --color-fg-secondary: var(--gray-dark-300);
+  --color-fg-secondary_hover: var(--gray-dark-200);
+  --color-fg-tertiary: var(--gray-dark-400);
+  --color-fg-tertiary_hover: var(--gray-dark-300);
+  --color-fg-quaternary: var(--gray-dark-400);
+  --color-fg-quaternary_hover: var(--gray-dark-300);
+  --color-fg-quinary: var(--gray-dark-500);
+  --color-fg-quinary_hover: var(--gray-dark-400);
+  --color-fg-senary: var(--gray-dark-600);
+  --color-fg-white: var(--white);
+  --color-fg-disabled: var(--gray-dark-500);
+  --color-fg-disabled_subtle: var(--gray-dark-600);
+  --color-fg-brand-primary: var(--brand-500);
+  --color-fg-brand-primary_alt: var(--gray-dark-300);
+  --color-fg-brand-secondary: var(--brand-500);
+  --color-fg-error-primary: var(--error-500);
+  --color-fg-error-secondary: var(--error-400);
+  --color-fg-warning-primary: var(--warning-500);
+  --color-fg-warning-secondary: var(--warning-400);
+  --color-fg-success-primary: var(--success-500);
+  --fg-success-secondary: var(--success-400);
+}

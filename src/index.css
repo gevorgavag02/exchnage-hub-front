@@ -1,2 +1,14 @@
-@import "tailwindcss";
-@config "../tailwind.config.js";
+@import 'tailwindcss';
+@import './theme/colors/index.css';
+@import './theme/dark/index.css';
+@import './theme/light/index.css';
+
+@theme {
+  --spacing: 1px;
+}
+
+html.theme-transition,
+html.theme-transition * {
+  transition: all;
+  transition-duration: 300ms;
+}
